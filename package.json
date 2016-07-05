@@ -1,0 +1,22 @@
+{
+  "name": "waterline-query-builder",
+  "version": "0.0.0",
+  "description": "Generate waterline queries using simple functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -b"
+  },
+  "keywords": [
+    "waterline",
+    "functional",
+    "query",
+    "builder"
+  ],
+  "author": "bas080",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "extend": "^3.0.0",
+    "mocha": "^2.5.3"
+  }
+}
