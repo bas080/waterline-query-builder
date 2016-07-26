@@ -40,6 +40,12 @@ let orPairs = pairs => {
   };
 };
 
+let andPairs = pairs => {
+  return {
+    'and': Object.keys(pairs).map(key => {return {[key]: pairs[key]}})
+  };
+};
+
 let builder = (fn) => {
   return data => {
     return fn(data);

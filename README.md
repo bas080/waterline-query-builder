@@ -20,9 +20,10 @@ So now that you know that pairs are represented as simple javascript objects,
 we can continue to look at an example.
 
 > example that uses the builder function.
+
 ```js
 
-  let w = require('waterline-query-string-builder');
+  let w = require('waterline-query-builder');
 
   let personQuery = w.builder(person => {
 
@@ -42,3 +43,5 @@ we can continue to look at an example.
 
 It takes multiple objects and returns a single object that contains the
 properties of the other objects.
+
+TODO
